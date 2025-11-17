@@ -1,17 +1,21 @@
-# IBM Cloud Toolkit for Watson Orchestrate
+# IBM Cloud Toolkit for watsonx Orchestrate
 
-MCP toolkit for Watson Orchestrate with 14 tools covering Cloud Logs, Code Engine, Container Registry, service management, and resource operations.
+MCP toolkit for watsonx Orchestrate with 14 tools covering Cloud Logs, Code Engine, Container Registry, service management, and resource operations.
+
+## Demo Video
+
+<a href="https://www.linkedin.com/posts/krishna-chaitanya-28ba69200_watsonxorchestrate-ibmcloud-aiagents-activity-7264609667725058048-WbZ7" target="_blank">
+  <img src="res/demo-preview.png" alt="Demo Video Preview" width="600">
+</a>
 
 ## Prerequisites
 
 - [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cli-getting-started) installed and configured
 - [Watson Orchestrate CLI](https://developer.watson-orchestrate.ibm.com/tools/toolkits/local_mcp_toolkits) (`pip install ibm-watsonx-orchestrate`)
 - IBM Cloud account with API key
-- Watson Orchestrate access
+- watsonx Orchestrate access
 
 ## Configuration
-
-### 1. Setup Environment Variables
 
 ### 1. Setup Environment Variables
 
@@ -90,11 +94,7 @@ The script injects credentials from `.env`, deploys the toolkit, and cleans up a
 
 ## Usage
 
-In Watson Orchestrate:
-
-## Usage
-
-In Watson Orchestrate:
+In watsonx Orchestrate:
 
 ```
 get_app_status app_name=memory-test-app
